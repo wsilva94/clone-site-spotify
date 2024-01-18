@@ -1,0 +1,24 @@
+{
+    "name": "clone-site-spotify",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npx tailwind -i style.css -o ./src/css/style.css --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wsilva94/clone-site-spotify.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/wsilva94/clone-site-spotify/issues"
+    },
+    "homepage": "https://github.com/wsilva94/clone-site-spotify#readme",
+    "dependencies": {
+        "tailwindcss": "^3.4.1"
+    }
+}
